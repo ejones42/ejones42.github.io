@@ -29,7 +29,6 @@ img {
 	display: block;
     margin-left: auto;
     margin-right: auto;
-    min-width: 10em;
 }
 
 ul {
@@ -97,6 +96,13 @@ h4
     }
 
 
+
+article h2 {
+    margin: 0;
+}
+
+
+
 figcaption {
     font-family:  big caslon;
     color: #0A2463;
@@ -126,7 +132,7 @@ div.gallery_container main {
     position: relative;
     padding-bottom: calc(90% + 3rem);
     overflow: none;
-   
+    
 }
 
 figure.gallery {
@@ -157,10 +163,11 @@ input:nth-of-type(8):checked ~ main figure:nth-of-type(8){
 
 nav.gallery_nav {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: .3em;
     margin: 3em 0;
 }
+
 
 /* End of gallery section */
 
